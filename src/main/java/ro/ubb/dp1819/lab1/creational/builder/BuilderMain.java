@@ -7,7 +7,6 @@ public class BuilderMain {
         String resultQuery = demo
                 .select("STUDENTS")
                 .where("GRADES < 5")
-                .orderBy("NAME")
                 .build();
         System.out.println(resultQuery);
     }
